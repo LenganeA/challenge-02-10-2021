@@ -1,0 +1,97 @@
+header
+{
+    background-image: url('../images/01.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+}
+.body_form
+{
+    position: relative;
+    top: 100px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.315);
+    width: 30%;
+    height: 530px;
+    border-radius: 20px;
+}
+.body_form .name_img
+{
+    background-color: #9c0808fd;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.body_form .name_img h1
+{
+    color: white;
+}
+form .input_1, .input_2, .input1
+{
+    padding: 5px;
+}
+form .input_1 input, form .input_2 input
+{
+	 width: 100%;
+	 height: 25px;
+	 padding: 15px;
+	 margin-bottom: 10px;
+	 border: none;
+	 border-bottom: 5px solid #9c0808fd;
+	 outline: none;
+}
+button
+{
+    
+	width: 30%;
+	height: 40px;
+    margin-left: 50px;
+	background-color: #ff00006e;
+	border:none;
+	border-radius: 5px;
+	color: white;
+	font-size: 1.2em;
+}
+.btn1 a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.word
+{
+	margin-top: 30px;
+	margin-left: 27px;
+	text-align: center;
+	width: 87%;
+	display: flex;
+	justify-content: space-between;
+}
+.word a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	margin: 25px;
+	margin-left: 0;
+	margin-right: 0;
+	font-family: sans-serif;
+}
+.word .retour
+{
+	color: white;
+	font-weight: bold;
+}
+.word .retour:hover
+{
+	color: #580606;
+}
+.alert
+{
+    position: absolute;
+    top: 420px;
+    left: 75px;
+    height: 50px;
+    padding: 10px;
+    color: red;
+    font-weight: bold;
+}
